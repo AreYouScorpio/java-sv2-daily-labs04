@@ -36,7 +36,7 @@ public class Movie {
         return  counter;
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Movie movie = new Movie();
         String actorname = scanner.nextLine();
@@ -44,9 +44,9 @@ public class Movie {
         movie.setTitle("Halloween");
         movie.setYearFilm(1999);
         Actors.addActor(actorname, actoryear);
-
+*/
 
     }
-}
+
 
 
