@@ -28,20 +28,19 @@ public class Plane {
         return sum;
     }
 
-
-
-
         public static void main (String[]args){
 
         // ha változtatod a repgép kapacitását, kevesebb személyt vesz fel rá
-            Plane plane = new Plane(3);
-            Passenger passenger1 = new Passenger("Akos", "B1", 3);
-            Passenger passenger2 = new Passenger("Barbi", "B2", 2);
-            Passenger passenger3 = new Passenger("Mugli", "B3", 1);
+            Plane plane = new Plane(4);
+            Passenger passenger1 = new Passenger("Akos", "B1", 1);
+            Passenger passenger2 = new Passenger("Barbi", "B2", 5);
+            Passenger passenger3 = new Passenger("Mugli", "B3", 0);
+            Passenger passenger4 = new Passenger("Nyos", "B4", 1);
 
 plane.addPassenger(passenger1);
 plane.addPassenger(passenger2);
 plane.addPassenger(passenger3);
+plane.addPassenger(passenger4);
 
             System.out.println("A gépen lévő utasok és csomagjaik száma:");
             for (int i=0; i<plane.passengers.size();i++) {
