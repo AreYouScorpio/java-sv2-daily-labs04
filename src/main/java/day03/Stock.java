@@ -1,25 +1,25 @@
 package day03;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class Stock {
 
     // void List(double) arfolyamok = new ArrayList<>();
 
+    double [] arfolyamok = new double[];
 
-    public double maxProfit(ArrayList arfolyamok) {
+    public double maxProfit(arfolyamok) {
             double max = Integer.MIN_VALUE;
-        for (int i = 0; i < arfolyamok.size(); i++) {
-               if (arfolyamok.get(i) > max) {
-                   max = arfolyamok.get(i);
+        for (int i = 0; i < arfolyamok.length; i++) {
+               if ( arfolyamok[i] > max) {
+                   max = arfolyamok[i];
                }
-             System.out.println(arfolyamok.get(i).toString());
+             System.out.println(arfolyamok[i]);
 
         }
         return max;
     }
-
 
 
 }
