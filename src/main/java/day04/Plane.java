@@ -1,4 +1,4 @@
-package day04;
+/* package day04;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,4 +40,3 @@ public class Plane {
 
         } */
 
-    }
